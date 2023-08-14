@@ -1,8 +1,6 @@
 package org.example;
 
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * Дан НЕотсортированный массив из N чисел от 1 до N,
