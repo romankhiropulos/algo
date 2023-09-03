@@ -1,5 +1,5 @@
 -- Всё дерево, начиная от директора
-WITH RECURSIVE clinic_temp(id, position, parent_id, path, level)
+WITH RECURSIVE clinic_temp(id, parent_id, position, path, level)
                    AS (SELECT id, parent_id, position, ' | ' || position, 0
                        FROM clinic_hierarchy
                        WHERE parent_id IS NULL
