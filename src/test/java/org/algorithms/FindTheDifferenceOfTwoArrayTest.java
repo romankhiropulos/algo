@@ -1,4 +1,4 @@
-package org.example;
+package org.algorithms;
 
 import org.junit.jupiter.api.Test;
 
