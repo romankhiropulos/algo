@@ -1,4 +1,4 @@
-package org.algorithms;
+package org.interview.algorithms;
 
 import java.util.List;
 

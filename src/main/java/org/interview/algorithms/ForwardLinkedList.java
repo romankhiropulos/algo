@@ -1,4 +1,4 @@
-package org.algorithms;
+package org.interview.algorithms;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

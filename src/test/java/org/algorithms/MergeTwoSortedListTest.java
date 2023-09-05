@@ -1,5 +1,7 @@
 package org.algorithms;
 
+import org.interview.algorithms.ListNode;
+import org.interview.algorithms.MergeTwoSortedList;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
