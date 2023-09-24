@@ -16,7 +16,7 @@ import static javax.persistence.CascadeType.PERSIST;
 @Entity
 @Table(schema = "public", name = "publication_st")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-@DiscriminatorColumn(name = "Publication_Type")
+@DiscriminatorColumn(name = "publication_type")
 @Data
 @SuperBuilder
 @NoArgsConstructor
