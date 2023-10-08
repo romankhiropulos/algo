@@ -38,8 +38,8 @@ public class LockTestingService {
                     System.out.println("Прочитали объект person с id " + person.getId() + " с базы данных второй транзакцией ");
                     System.out.println("Текущая версия person " + person.getVersion());
                     person.setAge(38);
-                    System.out.println("Поменяли возраст оптимистично заблокированного person");
-                    System.out.println("Текущая версия person " + person.getVersion());
+                    System.out.println("Поменяли возраст оптимистично заблокированного person с id " + person.getId());
+                    System.out.println("Коммит второй транзакции, в которой вносили изменения в person с id " + person.getId());
                 });
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
