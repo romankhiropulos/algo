@@ -19,7 +19,8 @@ public class NumberOfIslands {
             return 0;
         }
         // m - кол-во строк, n - кол-во столбцов грида
-        int m = grid.length, n = grid[0].length;
+        int m = grid.length;
+        int n = grid[0].length;
         int count = 0;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
