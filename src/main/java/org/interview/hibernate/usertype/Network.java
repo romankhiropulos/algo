@@ -26,6 +26,8 @@ public class Network {
 
     /**
      * Network data.
+     * Аннотация @Type объясняет Hibernate, к кому обращаться,
+     * для преобразования этого класса в SQL столбец и обратно.
      */
     @Type(type = "org.interview.hibernate.usertype.NetworkObjectType")
     private NetworkObject network;

@@ -33,7 +33,7 @@ public class NetworkObjectType implements UserType {
 
     @Override
     public boolean equals(Object o, Object o1) throws HibernateException {
-        return Objects.equals(0, 01);
+        return Objects.equals(o, o1);
     }
 
     @Override
