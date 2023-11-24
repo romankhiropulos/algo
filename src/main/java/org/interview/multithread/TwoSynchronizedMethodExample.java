@@ -1,4 +1,4 @@
-package org.interview.hibernate.multithread;
+package org.interview.multithread;
 
 import lombok.extern.slf4j.Slf4j;
 
