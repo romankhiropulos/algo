@@ -11,11 +11,6 @@ public class IsolationMain {
 
     public static void main(String[] args) {
 
-//        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("org/interview/sql/isolation");
-//        IsolationTesting bean = context.getBean(IsolationTesting.class);
-//        bean.testingLostUpdate();
-//        context.close();
-
         final SpringApplication application = new SpringApplication(InterviewMain.class);
         ConfigurableApplicationContext context = null;
         try {

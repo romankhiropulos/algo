@@ -11,7 +11,7 @@ import java.util.List;
 @Service
 public class LockTestingService {
 
-    private static final String TEST_PERSON_NAME = "Mr. White";
+    private static final String TEST_PERSON_NAME = "Mr. Lock Testing";
     private final TransactionWrapper transactionWrapper;
 
     public LockTestingService(TransactionWrapper transactionWrapper) {
